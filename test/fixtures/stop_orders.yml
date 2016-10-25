@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  routeID: 1
+  stopID: 1
+  order: 1
+
+two:
+  routeID: 1
+  stopID: 1
+  order: 1

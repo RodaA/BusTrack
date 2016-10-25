@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Busid:</strong>
+  <%= @bus.busID %>
+</p>
+
+<p>
+  <strong>Phonenum:</strong>
+  <%= @bus.phoneNum %>
+</p>
+
+<%= link_to 'Edit', edit_bus_path(@bus) %> |
+<%= link_to 'Back', buses_path %>

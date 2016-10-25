@@ -1,0 +1,32 @@
+<%= form_for(bus_driver) do |f| %>
+  <% if bus_driver.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(bus_driver.errors.count, "error") %> prohibited this bus_driver from being saved:</h2>
+
+      <ul>
+      <% bus_driver.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :busID %>
+    <%= f.number_field :busID %>
+  </div>
+
+  <div class="field">
+    <%= f.label :driverID %>
+    <%= f.number_field :driverID %>
+  </div>
+
+  <div class="field">
+    <%= f.label :shift %>
+    <%= f.text_field :shift %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

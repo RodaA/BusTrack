@@ -1,0 +1,1 @@
+json.partial! "bus_drivers/bus_driver", bus_driver: @bus_driver

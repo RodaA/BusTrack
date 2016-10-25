@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Routeid:</strong>
+  <%= @stop_order.routeID %>
+</p>
+
+<p>
+  <strong>Stopid:</strong>
+  <%= @stop_order.stopID %>
+</p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @stop_order.order %>
+</p>
+
+<%= link_to 'Edit', edit_stop_order_path(@stop_order) %> |
+<%= link_to 'Back', stop_orders_path %>

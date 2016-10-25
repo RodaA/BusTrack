@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Busid:</strong>
+  <%= @bus_driver.busID %>
+</p>
+
+<p>
+  <strong>Driverid:</strong>
+  <%= @bus_driver.driverID %>
+</p>
+
+<p>
+  <strong>Shift:</strong>
+  <%= @bus_driver.shift %>
+</p>
+
+<%= link_to 'Edit', edit_bus_driver_path(@bus_driver) %> |
+<%= link_to 'Back', bus_drivers_path %>

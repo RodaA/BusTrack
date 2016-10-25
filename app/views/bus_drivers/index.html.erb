@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Bus Drivers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Busid</th>
+      <th>Driverid</th>
+      <th>Shift</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bus_drivers.each do |bus_driver| %>
+      <tr>
+        <td><%= bus_driver.busID %></td>
+        <td><%= bus_driver.driverID %></td>
+        <td><%= bus_driver.shift %></td>
+        <td><%= link_to 'Show', bus_driver %></td>
+        <td><%= link_to 'Edit', edit_bus_driver_path(bus_driver) %></td>
+        <td><%= link_to 'Destroy', bus_driver, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bus Driver', new_bus_driver_path %>

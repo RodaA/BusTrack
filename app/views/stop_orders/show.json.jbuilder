@@ -1,0 +1,1 @@
+json.partial! "stop_orders/stop_order", stop_order: @stop_order

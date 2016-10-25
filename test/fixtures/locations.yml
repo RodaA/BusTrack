@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  LocationID: 
+  coordinates_LA: 1.5
+  coordinates_LO: 1.5
+  time: 2016-10-22 18:21:24
+  busID: 
+
+two:
+  LocationID: 
+  coordinates_LA: 1.5
+  coordinates_LO: 1.5
+  time: 2016-10-22 18:21:24
+  busID: 

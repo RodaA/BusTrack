@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  busID: 1
+  driverID: 1
+  shift: MyString
+
+two:
+  busID: 1
+  driverID: 1
+  shift: MyString

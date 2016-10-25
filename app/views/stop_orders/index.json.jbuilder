@@ -1,0 +1,1 @@
+json.array! @stop_orders, partial: 'stop_orders/stop_order', as: :stop_order

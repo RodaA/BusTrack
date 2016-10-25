@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Stopid:</strong>
+  <%= @stop.stopID %>
+</p>
+
+<p>
+  <strong>Stopname:</strong>
+  <%= @stop.stopName %>
+</p>
+
+<p>
+  <strong>Coordinates la:</strong>
+  <%= @stop.coordinates_LA %>
+</p>
+
+<p>
+  <strong>Coordinates lo:</strong>
+  <%= @stop.coordinates_LO %>
+</p>
+
+<%= link_to 'Edit', edit_stop_path(@stop) %> |
+<%= link_to 'Back', stops_path %>

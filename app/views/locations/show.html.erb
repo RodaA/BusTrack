@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Locationid:</strong>
+  <%= @location.LocationID %>
+</p>
+
+<p>
+  <strong>Coordinates la:</strong>
+  <%= @location.coordinates_LA %>
+</p>
+
+<p>
+  <strong>Coordinates lo:</strong>
+  <%= @location.coordinates_LO %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @location.time %>
+</p>
+
+<p>
+  <strong>Busid:</strong>
+  <%= @location.busID %>
+</p>
+
+<%= link_to 'Edit', edit_location_path(@location) %> |
+<%= link_to 'Back', locations_path %>

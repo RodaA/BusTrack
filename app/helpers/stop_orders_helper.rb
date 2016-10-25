@@ -1,0 +1,2 @@
+module StopOrdersHelper
+end

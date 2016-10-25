@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Stop Orders</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Routeid</th>
+      <th>Stopid</th>
+      <th>Order</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stop_orders.each do |stop_order| %>
+      <tr>
+        <td><%= stop_order.routeID %></td>
+        <td><%= stop_order.stopID %></td>
+        <td><%= stop_order.order %></td>
+        <td><%= link_to 'Show', stop_order %></td>
+        <td><%= link_to 'Edit', edit_stop_order_path(stop_order) %></td>
+        <td><%= link_to 'Destroy', stop_order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Stop Order', new_stop_order_path %>

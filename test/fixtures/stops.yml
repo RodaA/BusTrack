@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stopID: 1
+  stopName: MyString
+  coordinates_LA: MyString
+  coordinates_LO: MyString
+
+two:
+  stopID: 1
+  stopName: MyString
+  coordinates_LA: MyString
+  coordinates_LO: MyString
